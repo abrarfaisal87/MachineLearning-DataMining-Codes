@@ -1,0 +1,10 @@
+wine ,chips ,bread ,butter ,milk,apple
+wine ,,bread ,butter ,milk,apple
+,chips ,,,milk,
+wine ,,,butter ,milk,apple
+wine ,chips ,bread ,,,
+,chips ,bread ,butter ,,apple
+wine ,chips ,bread ,butter ,milk,
+wine ,chips ,bread ,,,
+wine ,chips ,bread ,butter ,,apple
+wine ,,bread ,butter ,,apple
