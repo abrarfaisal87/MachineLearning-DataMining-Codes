@@ -1,7 +1,7 @@
 import pandas as pd
 from apyori import apriori
 
-store_data = pd.read_csv(r'D:\ML,NN,IP\MachineLearning-DataMining-Codes\AprioriAlgo\OnlineRetail.csv', header=None)
+store_data = pd.read_csv(r'D:\ML,NN,IP\MachineLearning-DataMining-Codes\AprioriAlgo\Online Retail.csv', header=None)
 
 num_records = len(store_data)
 print(num_records)
@@ -15,7 +15,7 @@ association_result = list(association_rules)
 print(len(association_result))
 print(association_result)
 
-#extra
+# extra
 for item in association_rules:
     pair = item[0]
     items = [x for x in pair]
